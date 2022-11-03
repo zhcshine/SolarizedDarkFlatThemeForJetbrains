@@ -1,0 +1,57 @@
+<!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
+<idea-plugin>
+    <!-- Unique identifier of the plugin. It should be FQN. It cannot be changed between the plugin versions. -->
+    <id>SolarizedDarkFlat</id>
+    <version>1.0.0</version>
+
+    <!-- Public plugin name should be written in Title Case.
+         Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-name -->
+    <name>Solarized Dark Flat Theme</name>
+    <category>UI</category>
+
+    <!-- A displayed Vendor name or Organization ID displayed on the Plugins Page. -->
+    <vendor email="zhcshine@gmail.com" url="https://www.github.com/zhcshine">ZhcShine</vendor>
+
+    <idea-version since-build="213" until-build="223.*"/>
+
+    <!-- Description of the plugin displayed on the Plugin Page and IDE Plugin Manager.
+         Simple HTML elements (text formatting, paragraphs, and lists) can be added inside of <![CDATA[ ]]> tag.
+         Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-description -->
+    <description><![CDATA[
+   Add Solarized Dark Flat Theme.
+<br/><br/>
+
+Notable features:
+<ul>
+<li><a href="https://plugins.jetbrains.com/plugin/12784-solarized-themes">Edit base on Solarized Themes]</a>.</li>
+<li>Flatter.</li>
+</ul>
+<br/><br/>
+
+To install:
+<ol>
+<li>Go to <b>Settings | Plugins</b>, find the theme plugin and install it</li>
+<li>Restart the IDE</li>
+<li>Go to <b>Settings | Appearance & Behavior | Appearance</b> and select
+    <b>Solarized Dark Flat</b> in the Theme dropdown</li>
+<ul type="disc">
+<li>Or to select only an editor scheme go to <b>Settings | Editor | Color Scheme</b> and
+    select <b>Solarized Dark Flat</b> in the Scheme dropdown</li>
+</ul>
+</ol>
+  ]]></description>
+
+    <!-- Short summary of new features and bugfixes in the latest plugin version.
+         Displayed on the Plugin Page and IDE Plugin Manager. Simple HTML elements can be included between <![CDATA[  ]]> tags. -->
+    <change-notes><![CDATA[
+    Initial release of the theme.
+  ]]></change-notes>
+
+    <!-- Product and plugin compatibility requirements.
+         Read more: https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html -->
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <themeProvider id="SolarizedDarkFlat" path="/theme/SolarizedDarkFlat.theme.json"/>
+    </extensions>
+</idea-plugin>
