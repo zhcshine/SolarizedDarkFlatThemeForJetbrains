@@ -785,7 +785,7 @@
     </option>
     <option name="DEFAULT_STRING">
       <value>
-        <option name="FOREGROUND" value="859900" />
+        <option name="FOREGROUND" value="229d98" />
       </value>
     </option>
     <option name="DEFAULT_TAG" baseAttributes="TEXT" />
@@ -2000,7 +2000,7 @@
     </option>
     <option name="PY.STRING">
       <value>
-        <option name="FOREGROUND" value="2aa198" />
+        <option name="FOREGROUND" value="229d98" />
       </value>
     </option>
     <option name="PY.STRING.B">
