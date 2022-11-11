@@ -735,7 +735,7 @@
     <option name="DEFAULT_KEYWORD">
       <value>
         <option name="FOREGROUND" value="6C71C4" />
-        <option name="FONT_TYPE" value="2" />
+        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="DEFAULT_LABEL">
@@ -1948,7 +1948,6 @@
     <option name="PY.FUNCTION_CALL">
       <value>
         <option name="FOREGROUND" value="268BD2" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="PY.BUILTIN_NAME">
